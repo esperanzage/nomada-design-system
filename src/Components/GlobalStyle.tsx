@@ -1,9 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
-const FontStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 *{
 font-family: Muli;
 }
+
+body {
+    background: #F5F5F5;
+}
 `;
 
-export default FontStyles;
+export default GlobalStyles;

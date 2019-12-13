@@ -1,13 +1,18 @@
 import React from "react";
 import Button from "./Components/Button";
-import FontStyles from "./Components/GlobalStyle";
+import GlobalStyles from "./Components/GlobalStyle";
+import Card from "./Components/Card";
 
 function App() {
   return (
     <div className="App">
-      <FontStyles />
-      {/* <header className="App-header"></header> */}
-      <Button />
+      <GlobalStyles />
+      <Card title="Card Title super Awesome">
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+      </Card>
     </div>
   );
 }
